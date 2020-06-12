@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: usage_message
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
+
+server:
+  port : 8003
